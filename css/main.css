@@ -1,0 +1,38 @@
+.swiper {
+  border-radius: 20px;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-top: 20px;
+  width: 200px;
+}
+
+.product__top,
+.product__top img {
+  border-radius: 8px;
+  width: 200px;
+  height: 250px;
+}
+
+.product__bottom {
+  margin-top: 10px;
+}
+
+#product__name {
+  font-size: 18px;
+}
+
+#product__evaluation {
+  font-size: 12px;
+}
+
+#product__price {
+  font-size: 20px;
+}
+
+#card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
